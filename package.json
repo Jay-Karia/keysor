@@ -1,0 +1,20 @@
+{
+  "name": "keysor",
+  "displayName": "./",
+  "description": "A keyboard-driven extension for placing multiple cursors at arbitrary, non-contiguous coordinates. ",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.110.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+.",
+        "command": "workbench.action.showCommands"
+      }
+    ]
+  }
+}
